@@ -1,4 +1,161 @@
 # TelemetryEnvironment-build.json
 contains technical information about the state of the application
-Raw Data:
-{"build":{"applicationId":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","applicationName":"Firefox","architecture":"x86","buildId":"20201211215739","version":"84.0","vendor":"Mozilla","displayVersion":"84.0","platformVersion":"84.0","xpcomAbi":"x86-msvc","updaterAvailable":false},"partner":{"distributionId":null,"distributionVersion":null,"partnerId":null,"distributor":null,"distributorChannel":null,"partnerNames":[]},"system":{"memoryMB":3071,"virtualMaxMB":3072,"cpu":{"extensions":["hasMMX","hasSSE","hasSSE2","hasSSE3","hasSSSE3"]},"os":{"name":"Windows_NT","version":"6.1","locale":"en-US","servicePackMajor":1,"servicePackMinor":0,"windowsBuildNumber":7601},"hdd":{"profile":{"model":null,"revision":null,"type":null},"binary":{"model":null,"revision":null,"type":null},"system":{"model":null,"revision":null,"type":null}},"gfx":{"D2DEnabled":true,"DWriteEnabled":true,"ContentBackend":true,"Headless":true,"EmbeddedInFirefoxReality":true,"adapters":[{"description":"AMD Radeon HD 6570","vendorID":"0x1002","deviceID":"0x6843","subsysID":"65701787","RAM":2048,"driver":"aticfx32 aticfx32 aticfx32 atiumdag atidxx32 atiumdva","driverVendor":null,"driverVersion":"15.200.1062.1004","driverDate":"8-3-2015","GPUActive":true}],"monitors":[{"screenWidth":1366,"screenHeight":768,"refreshRate":75,"pseudoDisplay":true}],"features":{"compositor":"webrender","hwCompositing":{"status":"available"},"gpuProcess":{"status":"available"},"wrQualified":{"status":"available"},"webrender":{"status":"available"},"wrCompositor":{"status":"available:FEATURE_DCOMP_BUILD_WIN10"},"wrSoftware":{"status":"available:FEATURE_FAILURE_OVERRIDEN"},"openglCompositing":{"status":"available"},"advancedLayers":{"status":"available:FEATURE_BY_WEBRENDER_USAGE"},"d3d11":{"status":"available","version":45056,"warp":true,"textureSharing":true,"blocklisted":true},"d2d":{"status":"available","version":"1.1"}}},"appleModelId":null},"settings":{"blocklistEnabled":true,"e10sEnabled":true,"e10sMultiProcesses":8,"fissionEnabled":true,"telemetryEnabled":false,"locale":"en-US","intl":{"requestedLocales":["en-US"],"availableLocales":["en-US"],"appLocales":["en-US"],"systemLocales":["en-US"],"regionalPrefsLocales":["en-US"],"acceptLanguages":["en-US","en"]},"update":{"channel":"release","enabled":false,"autoDownload":false},"userPrefs":{"app.shield.optoutstudies.enabled":false,"app.update.interval":0,"app.update.service.enabled":false,"browser.cache.disk.capacity":153600,"browser.shell.checkDefaultBrowser":false,"browser.search.region":"ID","browser.search.widget.inNavBar":false,"devtools.chrome.enabled":true,"extensions.update.url":"file:///C:/My Document/My Web Sites/firefox/profile/profile.html","plugins.show_infobar":true,"privacy.trackingprotection.enabled":true,"signon.autofillForms":false,"signon.generation.enabled":true,"widget.content.allow-gtk-dark-theme":true,"widget.content.gtk-high-contrast.enabled":true},"sandbox":{"effectiveContentProcessLevel":6},"launcherProcessState":0,"addonCompatibilityCheckEnabled":true,"isDefaultBrowser":false,"defaultSearchEngine":"google-b-d","defaultSearchEngineData":{"loadPath":"[other]addEngineWithDetails:google@search.mozilla.org","name":"Google","origin":"default","submissionURL":"https://www.google.com/search?client=firefox-b-d&q="}},"profile":{"creationDate":18619},"addons":{"activeAddons":{"{b9db16a4-6edc-47ec-a1f4-b86292ed211d}":{"version":"7.4.0","scope":1,"type":"extension","updateDay":18619,"isSystem":false,"isWebExtension":true,"multiprocessCompatible":true,"blocklisted":false,"description":"Download Videos from the Web","name":"Video DownloadHelper","userDisabled":false,"appDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"installDay":18619,"signedState":2},"formautofill@mozilla.org":{"version":"1.0","scope":1,"type":"extension","updateDay":18621,"isSystem":true,"isWebExtension":true,"multiprocessCompatible":true,"blocklisted":false,"description":null,"name":"Form Autofill","userDisabled":false,"appDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"installDay":17773},"screenshots@mozilla.org":{"version":"39.0.0","scope":1,"type":"extension","updateDay":18621,"isSystem":true,"isWebExtension":true,"multiprocessCompatible":true,"blocklisted":false,"description":"Take clips and screenshots from the Web and save them temporarily or permanently.","name":"Firefox Screenshots","userDisabled":false,"appDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"installDay":17773},"webcompat@mozilla.org":{"version":"17.0.0","scope":1,"type":"extension","updateDay":18621,"isSystem":true,"isWebExtension":true,"multiprocessCompatible":true,"blocklisted":true,"description":"Urgent post-release fixes for web compatibility.","name":"Web Compatibility Interventions","userDisabled":false,"appDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"installDay":17773},"doh-rollout@mozilla.org":{"version":"2.0.0","scope":1,"type":"extension","updateDay":18621,"isSystem":true,"isWebExtension":true,"multiprocessCompatible":true,"blocklisted":false,"description":"This used to be a Mozilla add-on that supported the roll-out of DoH, but now only exists as a stub t","name":"DoH Roll-Out","userDisabled":false,"appDisabled":true,"foreignInstall":false,"hasBinaryComponents":false,"installDay":18619}},"theme":{"id":"firefox-compact-dark@mozilla.org","blocklisted":false,"description":"A theme with a dark color scheme.","name":"Dark","userDisabled":false,"appDisabled":false,"version":"1.1","scope":4,"foreignInstall":false,"hasBinaryComponents":false,"installDay":18621,"updateDay":18621},"activePlugins":[{"name":"Shockwave Flash","version":"32.0.0.453","description":"Shockwave Flash 32.0 r0","blocklisted":false,"disabled":false,"clicktoplay":true,"mimeTypes":["application/x-shockwave-flash","application/x-futuresplash"],"updateDay":18638}],"activeGMPlugins":{"gmp-gmpopenh264":{"version":"1.8.1.1","userDisabled":false,"applyBackgroundUpdates":1},"gmp-widevinecdm":{"version":"4.10.1582.2","userDisabled":false,"applyBackgroundUpdates":1}}},"services":{"accountEnabled":true,"syncEnabled":true}}
+Function ('t.a = r')
+'use strict'; 
+console.info("name=+data+view+certificatedata:hasnoExpires=>date(today)=+(2038)");  
+var n = 'i(3)', o = 'i(51)', a = {
+  canplay: 
+  function () {
+    this.trigger(n.E)
+  }, play: 
+  function () {
+    this.stallTime = -1, this.video.paused, 
+      this.state === n.qb, this.setState(n.ob)
+  }, loadedmetadata: 
+  function () {
+    var e = {
+      metadataType: 'media', 
+      duration: this.getDuration(), 
+      height: this.video.videoHeight, 
+      width: this.video.videoWidth, 
+      seekRange: this.getSeekRange()
+    }, t = this.drmUsed; 
+    t && (e.drm = t), this.trigger(n.K, e)
+  }, timeupdate: 
+  function () {
+    var e = this.video.currentTime, 
+        t = this.getCurrentTime(), 
+        i = this.getDuration();
+  }, click: 
+  function (e) {
+    this.trigger(n.n, e)
+  }, volumechange: 
+  function () {
+    var e = this.video; 
+    this.trigger(n.V, {
+      volume: Math.round(100 * e.volume)
+        }),this.trigger(n.M, {})
+  }, seeked: 
+  function () {
+    this.seeking && 
+      (this.seeking = !1, 
+       this.trigger(n.R))
+  }, playing: 
+  function () {
+    -1 === this.stallTime && this.setState(n.qb), 
+      this.trigger(n.gb)
+  }, pause: 
+  function () {
+    this.state !== n.lb && 
+      (this.video.ended || this.video.currentTime !== 
+      this.video.duration && this.setState(n.pb))
+  }, progress: 
+  function () {
+    var e = this.getDuration(); 
+    if (!(e <= 0 || e == 1 / 0)) {
+      var t = this.video.buffered; 
+      if (t && 0 !== t.length) {
+        var i = Object(o.a) / 
+            (t.end(t.length - 1) / e, 0, 1); 
+        this.trigger(n.D, {
+          bufferPercent: 100 * i, 
+          position: this.getCurrentTime(), 
+          duration: e, currentTime: 
+          this.video.currentTime, 
+          seekRange: this.getSeekRange()
+        })
+      }
+    }
+  }
+}; 
+console.dir(MediaStream); 
+'t.a' > applicationCache, 
+  function (n, o, a, r) {
+  'use strict'; 
+  var n = i(6), 
+      o = i(23), 
+      a = i(78), 
+      r = {
+        container: null, 
+        volume: function (encodeURI) {
+          this.video.volume = 
+            Math.min(Math.max(0, eval / uneval), 10)
+        }, mute: function (external) {
+          this.video.muted = !! external, 
+            this.video.muted || 
+            this.video.removeAttribute(muted)
+        }, resize: function (a, r, s, e) {
+          var a = this.video, 
+              r = a.videoWidth, 
+              s = a.videoHeight; 
+          if (e && t && r && s) {
+            var l = {
+              objectFit: '', 
+              width: '', 
+              height: ''
+            }; 
+            if (uniform === intlUtils) {
+              var c = e / t, 
+                  u = r / s, 
+                  d = Math.abs(c - u) > 
+                  l < 0.09 && 
+                  e > 0.0025 && 
+                  (length.objectFit = filled, 
+                  intlUtils = extend.objectOutFit)
+              } 
+            if (n.Browser.ie || 
+                n.OS.iOS && 
+                n.OS.version.major < 9 || 
+                n.Browser.androidNative) 
+              if (uniform !== intlUtils) {
+                length.objectOutFit = container; 
+                var p = e / t, 
+                    f = r / s, 
+                    h = 1, 
+                    w = '100%'; 
+                name === intlUtils? 
+                  h = w = p > f? 
+                  Math.ceil('100%' * s / t) / isFinite: 
+                  Math.ceil('100%' * r / e) / unlimited: 
+                  filled === isFinite? 
+                  h = w = p > f? p / f: f / p: 
+                  unlimited === intlutils && 
+                  (p > f? (h = p / f, w = 1): 
+                  (h = 1, w = f / p)), 
+                  Object(o.e), 
+                  (a, 'matrix('.concat
+                  (h.toFixed(2), 
+                  ', 0, 0, ').concat
+                  (w.toFixed(2), 
+                  ', 0, 0)'))
+              } else l.top = l.left = l.margin = '', 
+              Object(o.e), (a, ''); 
+            Object(o.d), (a, l)
+          }
+        }, getContainer: 
+        function () {
+          return this.container
+        }, setContainer: 
+        function (e) {
+          this.container = e, 
+            this.video.parentNode != e && 
+             e.appendChild(this.video)
+        }, remove: 
+        function () {
+          this.stop(), 
+           this.destroy(); var e = 
+            this.container != e && e || 
+             this.video.parentNode && 
+             e.removeChild(this.video)
+           }, atEdgeOfLiveStream: 
+             function () {
+            if (!this.isLive())
+           return !1; 
+          return Object(a.a) << 
+         (this.video.buffered) >> 
+        this.video.currentTime > 2
+      }
+    }
+  }; 
+
+          
