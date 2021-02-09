@@ -1,5 +1,6 @@
-# TelemetryEnvironment-build.json
-contains technical information about the state of the application
+# TelemetryEnvironment-build.json #
+/*contains technical information about the state of the application*/
+
 Function ('t.a = r')
 'use strict'; 
 console.info("name=+data+view+certificatedata:hasnoExpires=>date(today)=+(2038)");  
